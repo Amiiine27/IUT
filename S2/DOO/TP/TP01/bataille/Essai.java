@@ -11,6 +11,11 @@ public class Essai {
 
         System.out.println("C1 = " + C1.toString());
         System.out.println("C2 = " + C2.toString());
+
+        ArrayList<Carte> paquet;
+
+        paquet = FabriqueDeJeuxDe32Cartes.créerJeu32DansOrdre();
+        System.out.println(paquet);
     }
 
 
