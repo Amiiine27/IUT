@@ -21,6 +21,23 @@ public class Essai {
 
         paquetBattu = FabriqueDeJeuxDe32Cartes.créerJeu32Battu();
         System.out.println(paquetBattu);
+
+        Carte valtri = paquetTrié.get(0), valbat = paquetBattu.get(0);
+
+        System.out.println(valtri.supérieureA(valbat));
+
+        System.out.println("----------------------");
+
+        if (paquetBattu.get(0).supérieureA(paquetBattu.get(1))) System.out.println("LA première ("+paquetBattu.get(0)+") est plus grande que la deuxième ("+paquetBattu.get(1)+")");
+        else if (paquetBattu.get(1).supérieureA(paquetBattu.get(0))) System.out.println("LA deuxième ("+C2+") est plus grande que la première ("+C1+")");
+        else System.out.println("Les deux cartes ont la même valeur");
+
+
+        System.out.println("creer le joueur");
+
+        Joueur joueur_essai;
+        joueur_essai = new Joueur("Amine");
+        System.out.println(joueur_essai);
     }
 
 

@@ -17,9 +17,9 @@ public class Carte {
     private int valeur;
     private String couleur;
 
-    public Carte (int valeur, String couleur) {
-        this.valeur = valeur;
-        this.couleur = couleur;
+    public Carte (int v, String c) {
+        this.valeur = v;
+        this.couleur = c;
     }
 
 

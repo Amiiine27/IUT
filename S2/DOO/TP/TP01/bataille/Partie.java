@@ -17,7 +17,7 @@ public class Partie {
 
     private Joueur joueur1, joueur2;
 
-    public Partie (String nomJ1, String nomJ2) {
+    public Partie (String nomJ1, String nomJ2) { // CONSTRUCTEUR
 
         // créer deux paquets de cartes contenant une distribution d'un jeu de 32 cartes
         ArrayList<Carte> paquet1, paquet2;
@@ -82,7 +82,7 @@ public class Partie {
         System.out.println(gagnantPli.getNom() + " gagne le pli");
 
         // le pli est battu puis ramassé par le gagnant
-        if (Math.random()<0.5) {
+        if (Math.random()<0.5) { // savoir laquelle on prend en premier
             gagnantPli.ramasserUneCarte(cartePoséeJoueur1);
             gagnantPli.ramasserUneCarte(cartePoséeJoueur2);
         }
