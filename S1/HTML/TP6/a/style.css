@@ -1,0 +1,148 @@
+html{
+    position: relative;
+}
+
+body
+{
+    width: 1900px;
+    background-image: url(body-bg.jpg);
+    color: #6a6969;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+@font-face {
+    font-family: Bellaty;
+    src: url("/home/etudiants/info/aabbes/Téléchargements/baroque-script/BaroqueScript.ttf");
+}
+
+
+header
+{
+    background-color: #222222;
+    width: 1000px;
+    height: 110px;
+    margin: auto;
+    padding: 0;
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+
+#h3_head
+{
+    display: block;
+    position: absolute;
+    left: 970px;
+    top: 15px;
+}
+
+
+
+
+#logo
+{
+    width: 230px;
+    padding: 10px;
+}
+
+
+nav
+{
+    width: 1900px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.a1
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 2px;
+    height: 20px;
+    border: white 2px solid;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+main
+{
+    background-image: url(main-bg.png);
+    width: 1000px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#form
+{
+    width: 280px;
+    margin-left: 30px;
+    border: #6a6969 2px dashed;
+    border-radius: 5px;
+    color: white;
+    height: 300px;
+    background-color: #6a6969;
+}
+
+#sec_main
+{
+    width: 600px;
+    border: #6a6969 1px solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#img_main
+{
+    width: 300px;
+    margin-left: 20px;
+}
+
+footer
+{
+    background-color: #222222;
+    margin: auto;
+    width: 1300px;
+    height: 150px;
+    display: flex;
+    margin-top: 200px;
+}
+
+#logo_f
+{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+
+#p_f
+{
+    position: absolute;
+    bottom: 50px;
+    left: 600px;
+}
+
+
+#button_c
+{
+    text-align: center;
+    width:100px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: rgb(157, 157, 255);
+}
+
+#area
+{
+    margin-left: 0px;
+}

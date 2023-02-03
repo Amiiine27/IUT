@@ -1,0 +1,43 @@
+-- ----------
+-- auteur : Amine
+-- TP: TP1
+-- -----------------------------
+-- Exo1
+
+--Grâce au navigateur d'objet, répondez aux questions suivantes :
+1. Dans sur la partie gauche de phppgadmin, cliquez sur « Serveurs » et complétez les champs suivants :
+• Serveur : PostgreSQL
+• Hôte : localhost	
+• Port : 5432
+• Utilisateur : aakhrib	
+
+2. Dans sur la partie gauche de phppgadmin, cliquez sur « PostreSQL ». Retrouvez les informations suivantes concernant votre BD :
+• taille de votre BD : 8889 Ko
+• encodage : UTF8
+
+3. Cliquez sur la BD portant votre nom dans sur la partie gauche de phppgadmin. Analysez les onglets
+proposés.
+
+Les onglets proposés sont les onglets :
+
+• Schémas
+• SQL
+• Rechercher
+• Variables
+• Processus
+• Verrous
+• Admin
+• Droits
+• Exporter
+
+Exo 3
+
+• Les tables ont été créées dans le schéma IUT
+• Dans le schéma IUT les tables sont :
+	• enseignent
+	• etudiant
+	• notes
+	• ressource
+
+Exo 4
+
